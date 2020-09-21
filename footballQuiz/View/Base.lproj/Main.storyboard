@@ -39,17 +39,17 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faY-WS-4Dv">
-                                        <rect key="frame" x="0.0" y="237" width="374" height="172"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="746" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faY-WS-4Dv">
+                                        <rect key="frame" x="0.0" y="37.5" width="374" height="530.5"/>
                                         <string key="text">Liverpool have won six Champions Leagues and Manchester United have won three, but who are England's third most successful team in the competition with two titles?</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xad-tY-PcC">
-                                        <rect key="frame" x="0.0" y="618" width="374" height="200"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="745" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xad-tY-PcC">
+                                        <rect key="frame" x="0.0" y="578" width="374" height="200"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVu-ZA-F5g" customClass="KBRoundedButton">
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVu-ZA-F5g" customClass="KBRoundedButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
                                                 <color key="backgroundColor" red="0.38950341939999999" green="0.59879249329999995" blue="0.63753259179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -85,9 +85,16 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qR6-dV-rfn">
+                                        <rect key="frame" x="-2" y="788" width="378" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="MnD-zt-aBb"/>
+                                        </constraints>
+                                    </slider>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="aHE-Gk-ifD" secondAttribute="trailing" id="7eI-Xm-6CV"/>
+                                    <constraint firstItem="qR6-dV-rfn" firstAttribute="top" secondItem="xad-tY-PcC" secondAttribute="bottom" constant="10" id="YFe-D4-hn3"/>
                                     <constraint firstItem="aHE-Gk-ifD" firstAttribute="leading" secondItem="CNs-hf-te3" secondAttribute="leading" id="oBp-ML-c50"/>
                                 </constraints>
                             </stackView>
