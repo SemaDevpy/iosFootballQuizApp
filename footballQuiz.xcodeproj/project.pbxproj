@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19729C6878ABD23790BF44E2 /* Pods_footballQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22693D5FF5609A91B225A4 /* Pods_footballQuiz.framework */; };
+		A23D9D022518898D006704F4 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D9D012518898D006704F4 /* QuizBrain.swift */; };
+		A23D9D04251889A2006704F4 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D9D03251889A2006704F4 /* Quiz.swift */; };
 		A25D8E0B2517804600456BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D8E0A2517804600456BB5 /* AppDelegate.swift */; };
 		A25D8E0D2517804600456BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D8E0C2517804600456BB5 /* SceneDelegate.swift */; };
 		A25D8E0F2517804600456BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D8E0E2517804600456BB5 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320D736B8342DA923F8C53FB /* Pods-footballQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballQuiz.debug.xcconfig"; path = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		A23D9D012518898D006704F4 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		A23D9D03251889A2006704F4 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		A25D8E072517804600456BB5 /* footballQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25D8E0A2517804600456BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25D8E0C2517804600456BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		A25D8E132517804800456BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25D8E162517804800456BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25D8E182517804800456BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF22693D5FF5609A91B225A4 /* Pods_footballQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footballQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7B904064E004ECD1B0540D /* Pods-footballQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballQuiz.release.xcconfig"; path = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19729C6878ABD23790BF44E2 /* Pods_footballQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C84A399DC7D23AE8FC856C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF22693D5FF5609A91B225A4 /* Pods_footballQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F79973BA36CA39865319FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				320D736B8342DA923F8C53FB /* Pods-footballQuiz.debug.xcconfig */,
+				EA7B904064E004ECD1B0540D /* Pods-footballQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A23D9CFD25187DEC006704F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A25D8E102517804600456BB5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A23D9CFE25187DF4006704F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A25D8E0E2517804600456BB5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A23D9D0025187E38006704F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A23D9D03251889A2006704F4 /* Quiz.swift */,
+				A23D9D012518898D006704F4 /* QuizBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A25D8DFE2517804600456BB5 = {
 			isa = PBXGroup;
 			children = (
 				A25D8E092517804600456BB5 /* footballQuiz */,
 				A25D8E082517804600456BB5 /* Products */,
+				98F79973BA36CA39865319FA /* Pods */,
+				04C84A399DC7D23AE8FC856C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +109,11 @@
 		A25D8E092517804600456BB5 /* footballQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				A25D8E0A2517804600456BB5 /* AppDelegate.swift */,
+				A23D9D0025187E38006704F4 /* Model */,
+				A23D9CFD25187DEC006704F4 /* View */,
+				A23D9CFE25187DF4006704F4 /* Controller */,
 				A25D8E0C2517804600456BB5 /* SceneDelegate.swift */,
-				A25D8E0E2517804600456BB5 /* ViewController.swift */,
-				A25D8E102517804600456BB5 /* Main.storyboard */,
+				A25D8E0A2517804600456BB5 /* AppDelegate.swift */,
 				A25D8E132517804800456BB5 /* Assets.xcassets */,
 				A25D8E152517804800456BB5 /* LaunchScreen.storyboard */,
 				A25D8E182517804800456BB5 /* Info.plist */,
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A25D8E1B2517804800456BB5 /* Build configuration list for PBXNativeTarget "footballQuiz" */;
 			buildPhases = (
+				04BB00B63FD5C92905A6ABA6 /* [CP] Check Pods Manifest.lock */,
 				A25D8E032517804600456BB5 /* Sources */,
 				A25D8E042517804600456BB5 /* Frameworks */,
 				A25D8E052517804600456BB5 /* Resources */,
+				82F27EBB01351209287AB2D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +189,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04BB00B63FD5C92905A6ABA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-footballQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F27EBB01351209287AB2D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footballQuiz/Pods-footballQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-footballQuiz/Pods-footballQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-footballQuiz/Pods-footballQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A25D8E032517804600456BB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A25D8E0F2517804600456BB5 /* ViewController.swift in Sources */,
+				A23D9D04251889A2006704F4 /* Quiz.swift in Sources */,
 				A25D8E0B2517804600456BB5 /* AppDelegate.swift in Sources */,
 				A25D8E0D2517804600456BB5 /* SceneDelegate.swift in Sources */,
+				A23D9D022518898D006704F4 /* QuizBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		A25D8E1C2517804800456BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320D736B8342DA923F8C53FB /* Pods-footballQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +400,7 @@
 		};
 		A25D8E1D2517804800456BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7B904064E004ECD1B0540D /* Pods-footballQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

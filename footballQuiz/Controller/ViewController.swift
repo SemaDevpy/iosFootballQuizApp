@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import KBRoundedButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myButton: KBRoundedButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 

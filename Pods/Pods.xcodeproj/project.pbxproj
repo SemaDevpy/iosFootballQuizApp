@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270D6AA75218AE7E8EF46515DEA80BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		3F6141DC6CF7A0EFF051869A82A46139 /* KBRoundedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B33BE4376C39141E8BFAE5F7B51A7D /* KBRoundedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468FA8B3075A2CDB058DA73111C032C4 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E129223303EEF3DD31AE5D85DE387699 /* UIImage+Color.m */; };
+		4983D891F63B5211AF711CAFF4D3A9E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */; };
+		710B2ECDFA893E4B378329A32A719EC8 /* KBRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C318702EF5A60B8330DF1B224DEE6F /* KBRoundedButton.m */; };
+		805831873F743045B4E6E368FCE11386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		A121E1A0D8F921F132375B86EDC31666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */; };
+		B66E262461E5BFD447EC1399685561DC /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = AB66FB18F2C2578316E54432F06CE449 /* UIImage+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5F548E432CAA0EA7BA31CFF0EF98F4 /* Pods-footballQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E9984F597A9F266F0EE00F859A800 /* Pods-footballQuiz-dummy.m */; };
+		CE7583A48B94C5AE9AEA961DB235954C /* KBRoundedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51858F67DD69650812E06AD9BBDD45 /* KBRoundedButton-dummy.m */; };
+		EDF3457BC4BC80E9AF3A7A44752BEE44 /* KBRoundedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04897174976EFE8AF13C7FB40EED38E /* KBRoundedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F400DE3E905FEAD2E21F6774FE083A31 /* Pods-footballQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F83AE92606BA57B5E7907B1ACF9C5E96 /* Pods-footballQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8793AA5936260128D672B4E39F017209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7B685E0F9A73A2C7AD6AB64751C5ED;
+			remoteInfo = KBRoundedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0537E949AE9DF37F3F647BF8AAB1ADD0 /* KBRoundedButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KBRoundedButton.debug.xcconfig; sourceTree = "<group>"; };
+		276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4BD5C547CA053AAB08322AC800C21EB2 /* Pods-footballQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-footballQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E51858F67DD69650812E06AD9BBDD45 /* KBRoundedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KBRoundedButton-dummy.m"; sourceTree = "<group>"; };
+		50CC249C411F92D2B1AFA6C6E5C14ECB /* Pods-footballQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-footballQuiz.modulemap"; sourceTree = "<group>"; };
+		5C1B8917FF87D47D2DDAB16338DE6404 /* KBRoundedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBRoundedButton-prefix.pch"; sourceTree = "<group>"; };
+		638F9A94059BA39201FF7E4B679806FC /* KBRoundedButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KBRoundedButton.modulemap; sourceTree = "<group>"; };
+		6C1880E5F6CD812E99A82D05BE107A41 /* Pods-footballQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-footballQuiz-frameworks.sh"; sourceTree = "<group>"; };
+		6EAE1D1D08A7582D374C0C2D0A2ACFB8 /* Pods-footballQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-footballQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70B33BE4376C39141E8BFAE5F7B51A7D /* KBRoundedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KBRoundedButton.h; path = KBRoundedButton/KBRoundedButton.h; sourceTree = "<group>"; };
+		723C0532BCD40D620311C87C17361BC8 /* KBRoundedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KBRoundedButton.framework; path = KBRoundedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E52A3256288CF7EA1F1A1AD85A8EFAA /* Pods-footballQuiz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-footballQuiz-Info.plist"; sourceTree = "<group>"; };
+		9A87F5A7EC8FDACC15465CE248B9CC40 /* KBRoundedButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KBRoundedButton.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB66FB18F2C2578316E54432F06CE449 /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "KBRoundedButton/UIImage+Color.h"; sourceTree = "<group>"; };
+		BC2E9984F597A9F266F0EE00F859A800 /* Pods-footballQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-footballQuiz-dummy.m"; sourceTree = "<group>"; };
+		C04897174976EFE8AF13C7FB40EED38E /* KBRoundedButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KBRoundedButton-umbrella.h"; sourceTree = "<group>"; };
+		DDC8FB92FBDBF1D90ED096E1FA618EF5 /* Pods_footballQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_footballQuiz.framework; path = "Pods-footballQuiz.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00DD6B37F19A1EB6518641185509BAF /* Pods-footballQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-footballQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		E0C318702EF5A60B8330DF1B224DEE6F /* KBRoundedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KBRoundedButton.m; path = KBRoundedButton/KBRoundedButton.m; sourceTree = "<group>"; };
+		E129223303EEF3DD31AE5D85DE387699 /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "KBRoundedButton/UIImage+Color.m"; sourceTree = "<group>"; };
+		E99332290CFF60578102AAC0C8ED314A /* KBRoundedButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KBRoundedButton-Info.plist"; sourceTree = "<group>"; };
+		EC2B7F8F91B3004F3ED56E7213CAE675 /* Pods-footballQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-footballQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		F83AE92606BA57B5E7907B1ACF9C5E96 /* Pods-footballQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-footballQuiz-umbrella.h"; sourceTree = "<group>"; };
+		FD608BCCF279B1277BB911F33106997F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013852E3532CEB08D1851149EB6A2B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4983D891F63B5211AF711CAFF4D3A9E8 /* CoreGraphics.framework in Frameworks */,
+				270D6AA75218AE7E8EF46515DEA80BE6 /* Foundation.framework in Frameworks */,
+				A121E1A0D8F921F132375B86EDC31666 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F8189074A4C3C5476DB1EE13CDA891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805831873F743045B4E6E368FCE11386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8076CBFEE71A3B199C34F20F66745 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BAE07AFF168CAE8C0D31BB410303ACB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				638F9A94059BA39201FF7E4B679806FC /* KBRoundedButton.modulemap */,
+				4E51858F67DD69650812E06AD9BBDD45 /* KBRoundedButton-dummy.m */,
+				E99332290CFF60578102AAC0C8ED314A /* KBRoundedButton-Info.plist */,
+				5C1B8917FF87D47D2DDAB16338DE6404 /* KBRoundedButton-prefix.pch */,
+				C04897174976EFE8AF13C7FB40EED38E /* KBRoundedButton-umbrella.h */,
+				0537E949AE9DF37F3F647BF8AAB1ADD0 /* KBRoundedButton.debug.xcconfig */,
+				9A87F5A7EC8FDACC15465CE248B9CC40 /* KBRoundedButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KBRoundedButton";
+			sourceTree = "<group>";
+		};
+		6274D8F57D474CFD1241665EB83F465A /* Pods-footballQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				50CC249C411F92D2B1AFA6C6E5C14ECB /* Pods-footballQuiz.modulemap */,
+				6EAE1D1D08A7582D374C0C2D0A2ACFB8 /* Pods-footballQuiz-acknowledgements.markdown */,
+				4BD5C547CA053AAB08322AC800C21EB2 /* Pods-footballQuiz-acknowledgements.plist */,
+				BC2E9984F597A9F266F0EE00F859A800 /* Pods-footballQuiz-dummy.m */,
+				6C1880E5F6CD812E99A82D05BE107A41 /* Pods-footballQuiz-frameworks.sh */,
+				8E52A3256288CF7EA1F1A1AD85A8EFAA /* Pods-footballQuiz-Info.plist */,
+				F83AE92606BA57B5E7907B1ACF9C5E96 /* Pods-footballQuiz-umbrella.h */,
+				EC2B7F8F91B3004F3ED56E7213CAE675 /* Pods-footballQuiz.debug.xcconfig */,
+				E00DD6B37F19A1EB6518641185509BAF /* Pods-footballQuiz.release.xcconfig */,
+			);
+			name = "Pods-footballQuiz";
+			path = "Target Support Files/Pods-footballQuiz";
+			sourceTree = "<group>";
+		};
+		8D37DE13A9AB1D0046A34AA73EE5E2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723C0532BCD40D620311C87C17361BC8 /* KBRoundedButton.framework */,
+				DDC8FB92FBDBF1D90ED096E1FA618EF5 /* Pods_footballQuiz.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE8076CBFEE71A3B199C34F20F66745 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */,
+				FD608BCCF279B1277BB911F33106997F /* Foundation.framework */,
+				01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC08466A149EEBF67570D74CA8E47FDD /* KBRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				70B33BE4376C39141E8BFAE5F7B51A7D /* KBRoundedButton.h */,
+				E0C318702EF5A60B8330DF1B224DEE6F /* KBRoundedButton.m */,
+				AB66FB18F2C2578316E54432F06CE449 /* UIImage+Color.h */,
+				E129223303EEF3DD31AE5D85DE387699 /* UIImage+Color.m */,
+				4BAE07AFF168CAE8C0D31BB410303ACB /* Support Files */,
+			);
+			name = KBRoundedButton;
+			path = KBRoundedButton;
+			sourceTree = "<group>";
+		};
+		C506D8FBB12D592D64A6EC44910AA92D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC08466A149EEBF67570D74CA8E47FDD /* KBRoundedButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				C506D8FBB12D592D64A6EC44910AA92D /* Pods */,
+				8D37DE13A9AB1D0046A34AA73EE5E2BE /* Products */,
+				DFEA6F9241DD47A150700957AD357F9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DFEA6F9241DD47A150700957AD357F9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6274D8F57D474CFD1241665EB83F465A /* Pods-footballQuiz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7192E819C0E5DD722784DD47C309146B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3457BC4BC80E9AF3A7A44752BEE44 /* KBRoundedButton-umbrella.h in Headers */,
+				3F6141DC6CF7A0EFF051869A82A46139 /* KBRoundedButton.h in Headers */,
+				B66E262461E5BFD447EC1399685561DC /* UIImage+Color.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC42488FD03FEDDE07053F04011F2AC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F400DE3E905FEAD2E21F6774FE083A31 /* Pods-footballQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F7B685E0F9A73A2C7AD6AB64751C5ED /* KBRoundedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0CA064457F22C5324E8DF6448310E2 /* Build configuration list for PBXNativeTarget "KBRoundedButton" */;
+			buildPhases = (
+				7192E819C0E5DD722784DD47C309146B /* Headers */,
+				76B8C27A7DC8E3DD2EA2747CC12970F7 /* Sources */,
+				013852E3532CEB08D1851149EB6A2B17 /* Frameworks */,
+				C902FBEA0A3C523288B5C70F33092855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBRoundedButton;
+			productName = KBRoundedButton;
+			productReference = 723C0532BCD40D620311C87C17361BC8 /* KBRoundedButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA6D703931B5117F522B66674577533A /* Pods-footballQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AD52DED3248FDC44767F98FCE27DC6 /* Build configuration list for PBXNativeTarget "Pods-footballQuiz" */;
+			buildPhases = (
+				CC42488FD03FEDDE07053F04011F2AC7 /* Headers */,
+				89F943FAF042E259444C0E6255930CF3 /* Sources */,
+				54F8189074A4C3C5476DB1EE13CDA891 /* Frameworks */,
+				7C001DCC41E54F44FBE4CAF064F7BD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED6A59DFFC6637CB44E273D151F27F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-footballQuiz";
+			productName = "Pods-footballQuiz";
+			productReference = DDC8FB92FBDBF1D90ED096E1FA618EF5 /* Pods_footballQuiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D37DE13A9AB1D0046A34AA73EE5E2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7B685E0F9A73A2C7AD6AB64751C5ED /* KBRoundedButton */,
+				AA6D703931B5117F522B66674577533A /* Pods-footballQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C001DCC41E54F44FBE4CAF064F7BD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C902FBEA0A3C523288B5C70F33092855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B8C27A7DC8E3DD2EA2747CC12970F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7583A48B94C5AE9AEA961DB235954C /* KBRoundedButton-dummy.m in Sources */,
+				710B2ECDFA893E4B378329A32A719EC8 /* KBRoundedButton.m in Sources */,
+				468FA8B3075A2CDB058DA73111C032C4 /* UIImage+Color.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F943FAF042E259444C0E6255930CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5F548E432CAA0EA7BA31CFF0EF98F4 /* Pods-footballQuiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED6A59DFFC6637CB44E273D151F27F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KBRoundedButton;
+			target = 3F7B685E0F9A73A2C7AD6AB64751C5ED /* KBRoundedButton */;
+			targetProxy = 8793AA5936260128D672B4E39F017209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A25971C48008E12C91E5934E765AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00DD6B37F19A1EB6518641185509BAF /* Pods-footballQuiz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F85D6CBB771CF5E6683F272B0CA6366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A87F5A7EC8FDACC15465CE248B9CC40 /* KBRoundedButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KBRoundedButton/KBRoundedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KBRoundedButton/KBRoundedButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KBRoundedButton/KBRoundedButton.modulemap";
+				PRODUCT_MODULE_NAME = KBRoundedButton;
+				PRODUCT_NAME = KBRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6213217211968B99CDA0FD5FF794B90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0537E949AE9DF37F3F647BF8AAB1ADD0 /* KBRoundedButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KBRoundedButton/KBRoundedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KBRoundedButton/KBRoundedButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KBRoundedButton/KBRoundedButton.modulemap";
+				PRODUCT_MODULE_NAME = KBRoundedButton;
+				PRODUCT_NAME = KBRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C038F20A41702BC59DA5F85A92F3EB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2B7F8F91B3004F3ED56E7213CAE675 /* Pods-footballQuiz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-footballQuiz/Pods-footballQuiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AD52DED3248FDC44767F98FCE27DC6 /* Build configuration list for PBXNativeTarget "Pods-footballQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C038F20A41702BC59DA5F85A92F3EB07 /* Debug */,
+				5A25971C48008E12C91E5934E765AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0CA064457F22C5324E8DF6448310E2 /* Build configuration list for PBXNativeTarget "KBRoundedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6213217211968B99CDA0FD5FF794B90B /* Debug */,
+				5F85D6CBB771CF5E6683F272B0CA6366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
