@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="footballQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="footballQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,19 +39,17 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="746" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faY-WS-4Dv">
-                                        <rect key="frame" x="0.0" y="37.5" width="374" height="530.5"/>
-                                        <string key="text">Liverpool have won six Champions Leagues and Manchester United have won three, but who are England's third most successful team in the competition with two titles?</string>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="746" text="label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faY-WS-4Dv">
+                                        <rect key="frame" x="0.0" y="47.5" width="374" height="520.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="745" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xad-tY-PcC">
-                                        <rect key="frame" x="0.0" y="578" width="374" height="200"/>
+                                        <rect key="frame" x="0.0" y="588" width="374" height="200"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVu-ZA-F5g" customClass="KBRoundedButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
-                                                <color key="backgroundColor" red="0.38950341939999999" green="0.59879249329999995" blue="0.63753259179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="TRK-cn-zLy"/>
                                                 </constraints>
@@ -60,10 +58,12 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0vE-Oi-G5i"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0b-Za-5Ag" customClass="KBRoundedButton">
                                                 <rect key="frame" x="0.0" y="70" width="374" height="60"/>
-                                                <color key="backgroundColor" red="0.38950341939999999" green="0.59879249329999995" blue="0.63753259179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="qY8-qI-MmN"/>
                                                 </constraints>
@@ -71,10 +71,12 @@
                                                 <state key="normal" title="Burnley City ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ln4-Yq-tUm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-Da-Xc1" customClass="KBRoundedButton">
                                                 <rect key="frame" x="0.0" y="140" width="374" height="60"/>
-                                                <color key="backgroundColor" red="0.38950341939999999" green="0.59879249329999995" blue="0.63753259179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="wmf-dA-buR"/>
                                                 </constraints>
@@ -82,19 +84,22 @@
                                                 <state key="normal" title="Chelsea FC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0w7-cj-XoT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qR6-dV-rfn">
-                                        <rect key="frame" x="-2" y="788" width="378" height="31"/>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="AZH-TO-6ZU">
+                                        <rect key="frame" x="0.0" y="808" width="374" height="10"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="MnD-zt-aBb"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="ZWv-37-dsU"/>
                                         </constraints>
-                                    </slider>
+                                    </progressView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="aHE-Gk-ifD" secondAttribute="trailing" id="7eI-Xm-6CV"/>
-                                    <constraint firstItem="qR6-dV-rfn" firstAttribute="top" secondItem="xad-tY-PcC" secondAttribute="bottom" constant="10" id="YFe-D4-hn3"/>
+                                    <constraint firstItem="AZH-TO-6ZU" firstAttribute="top" secondItem="xad-tY-PcC" secondAttribute="bottom" constant="20" id="gbg-eq-dha"/>
                                     <constraint firstItem="aHE-Gk-ifD" firstAttribute="leading" secondItem="CNs-hf-te3" secondAttribute="leading" id="oBp-ML-c50"/>
                                 </constraints>
                             </stackView>
@@ -113,7 +118,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="myButton" destination="DVu-ZA-F5g" id="YBI-xg-D8a"/>
+                        <outlet property="firstButton" destination="DVu-ZA-F5g" id="Cch-Ka-Ry5"/>
+                        <outlet property="progess" destination="AZH-TO-6ZU" id="ZnN-GR-CtS"/>
+                        <outlet property="questionLabel" destination="faY-WS-4Dv" id="mUV-0K-7Uw"/>
+                        <outlet property="questionNumber" destination="UP9-8V-Ids" id="gLG-hH-lVV"/>
+                        <outlet property="scoreLabel" destination="bbd-aX-fVl" id="Itf-WL-rdq"/>
+                        <outlet property="secondButton" destination="w0b-Za-5Ag" id="uLA-HT-4aj"/>
+                        <outlet property="thirdButton" destination="kdK-Da-Xc1" id="plb-wZ-ZCM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

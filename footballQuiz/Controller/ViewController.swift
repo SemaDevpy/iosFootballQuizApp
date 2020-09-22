@@ -9,7 +9,7 @@
 import UIKit
 import KBRoundedButton
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     @IBOutlet weak var myButton: KBRoundedButton!
     override func viewDidLoad() {
